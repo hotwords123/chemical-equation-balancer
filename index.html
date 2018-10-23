@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>化学方程式配平</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div>
+        <input id="input-l" type="text" placeholder="反应物" spellcheck="false" tabindex="1">
+        <input id="btn" type="button" value="--" tabindex="3">
+        <input id="input-r" type="text" placeholder="生成物" spellcheck="false" tabindex="2">
+    </div>
+    <div id="result"><span style="color: #aaa; font-size: 15px;">结果</span></div>
+    <div id="intro">
+        <p>方程式书写格式说明：</p>
+        <li>化学式按通常的方式书写。</li>
+        <li>括号全部使用小括号，可以嵌套。</li>
+        <li>化学式之间用加号(+)分隔。</li>
+        <p>例子：</p>
+        <li>H2+O2--H2O</li>
+        <li>Ba(NO3)2+H2SO4--BaSO4+HNO3</li>
+    </div>
+    <script src="math.js" type="text/javascript"></script>
+    <script src="equation.js" type="text/javascript"></script>
+    <script src="balance.js" type="text/javascript"></script>
+    <script src="main.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+
+#input-l, #input-r {
+    width: 24em;
+    text-align: center;
+}
+
+#input-l, #input-r, #btn {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#result {
+    width: fit-content;
+    border: 1px solid #aaa;
+    margin-top: 8px;
+    padding: 4px;
+    font-size: 18px;
+}
+
+.error-info {
+    color: red;
+    white-space: pre;
+    font-size: 15px;
+}
+
+#intro {
+    width: fit-content;
+    border: 1px solid #aaa;
+    margin-top: 8px;
+    padding: 4px;
+    font-size: 15px;
+}
