@@ -11,4 +11,4 @@
 
 ### 演示
 
-[https://hotwords123.github.io/chemical-equation-balancer/](戳这里)
+[戳这里](https://hotwords123.github.io/chemical-equation-balancer/)
